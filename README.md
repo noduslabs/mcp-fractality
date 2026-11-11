@@ -30,6 +30,21 @@ Claude Desktop, Cursor and other clients (`claude_desktop_config.json`, `.cursor
 
 Requires Node.js 18+. The server runs locally over stdio.
 
+Straight from GitHub, without npm:
+
+```sh
+claude mcp add fractality -- npx -y github:noduslabs/mcp-fractality
+```
+
+From a local clone:
+
+```sh
+git clone https://github.com/noduslabs/mcp-fractality && cd mcp-fractality && npm install
+claude mcp add fractality -- node "$(pwd)/bin/mcp-fractality.js"
+```
+
+Check it's connected with `claude mcp list`, or `/mcp` inside Claude Code.
+
 ## Tools
 
 | Tool | What it does |

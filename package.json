@@ -32,6 +32,14 @@
 	],
 	"author": "Dmitry Paranyushkin / Nodus Labs",
 	"license": "AGPL-3.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/noduslabs/mcp-fractality"
+	},
+	"homepage": "https://github.com/noduslabs/mcp-fractality",
+	"bugs": {
+		"url": "https://github.com/noduslabs/mcp-fractality/issues"
+	},
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.32.1",
 		"dfa-variability": "^2.4.0",
