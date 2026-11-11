@@ -1,0 +1,41 @@
+{
+	"name": "mcp-fractality",
+	"version": "0.1.0",
+	"description": "MCP server for generating mono- and multifractal signals with a chosen DFA alpha, and measuring the fractal structure (DFA, MFDFA) of any time series.",
+	"main": "src/server.js",
+	"bin": {
+		"mcp-fractality": "bin/mcp-fractality.js"
+	},
+	"files": [
+		"bin",
+		"src"
+	],
+	"scripts": {
+		"start": "node bin/mcp-fractality.js",
+		"test": "node --test"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"keywords": [
+		"mcp",
+		"model-context-protocol",
+		"fractal",
+		"multifractal",
+		"dfa",
+		"mfdfa",
+		"pink noise",
+		"1/f",
+		"hurst",
+		"time series",
+		"hrv"
+	],
+	"author": "Dmitry Paranyushkin / Nodus Labs",
+	"license": "AGPL-3.0-or-later",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.32.1",
+		"dfa-variability": "^2.4.0",
+		"generate-fractal-signal": "^2.0.0",
+		"zod": "^4.6.7"
+	}
+}
